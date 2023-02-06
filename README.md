@@ -9,11 +9,6 @@ This tutorial is a series of two parts.
 - Tutorial 1 (this part) : Getting familiar with NLP concepts like BOW, TFIDF, Word Embeddings, data cleaning and preprocessing,...
 - Tutorial 2 : Apply advanced state-of-the-art model in NLP for sentiment analysis task. Our focus will be on BERT model.
 
-This project will be divide into 2 parts : 
-- First part will be devoted to analyse our tweet dataset along with some data cleaning and preprocessing steps. 
-We will apply then standards methods (e.g. Bag of words (BOW) and tf-idf) to convert our tweets into  
-
-
 ## Project Structure 
 
 ```bash
@@ -31,10 +26,9 @@ The dataset consists of 103904 and 25976 records in train and test respectively.
 
 ## Methodology
 This notebook is structured as follows :
-- Part 1 : EDA with analysis of missing data, data cleaning, uni and bi-variate analysis and data preprocessing
-- Part 2 : Baseline model using 3 classifiers (Random Forest, Logistic regression and Gradient Boosting)
-- Part 3 : Hyperparameter tuning and feature selection
-- Part 4 : Final model selection using the most significant features
-- Part 5 : Error Analysis 
+
+- Part 1 :Tweet analysis (EDA, data cleaning, text normalisation,...)
+- Part 2 : Modelisation with 3 classifiers (RF, LR, Naive Bayes) to predict the sentiment of a tweet. These approaches will mainly focus on uni-gram, bi-gram ,tri-gram and Word Embeddings using Gensim library.
+
 
 
