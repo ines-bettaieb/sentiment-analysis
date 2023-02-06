@@ -19,10 +19,10 @@ This tutorial is a series of two parts.
 └── readme.md
 ```
 ## Project Overview
-The dataset for this project is obtained from Kaggle which contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. 
-The dataset consists of 25 columns such as Age, Gender, Travel class, Arrival and Departure delays and also features that influences customer satisfaction level such as On-board service, Cleanliness, Seat comfort, Baggage handling etc.
-Our target variable ‘satisfaction’ describes the overall satisfaction level of the customer. It has two values, ‘neutral or dissatisfied’ and ‘satisfied’.
-The dataset consists of 103904 and 25976 records in train and test respectively.
+The dataset for this project is obtained from Kaggle and contains 3 columns : textid, text and textselected. Our target variable 'Sentiment' is declined in 3 levels : positive, negative and neutral. Our datasets comprises of 27, 481 tweets with the following repartition :
+- 40.5% are neutral tweets, 
+- 31.2% are positive tweets, 
+- 28.3% are negative tweets.
 
 ## Methodology
 This notebook is structured as follows :
