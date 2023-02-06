@@ -13,14 +13,10 @@ Customer satisfaction plays a major role in affecting the business of a company 
 ## Project Structure 
 
 ```bash
-AirlinePassengerSatisfaction
-└── Utilis
-    └── __init__.py
-    └── utilis.py
-└── Datasets
-    └── test.csv
-    └── train.csv
-└── satisfaction.ipynb
+└── Data
+    └── tf.csv
+    └── tf_test.csv
+└── NLP_BOW_TFIDF_WORD2VEC.ipynb
 └── readme.md
 ```
 ## Project Overview
@@ -37,6 +33,4 @@ This notebook is structured as follows :
 - Part 4 : Final model selection using the most significant features
 - Part 5 : Error Analysis 
 
-## Conclusion
-Random Forest classifier achieved the best results in terms of accuracy (93.3%), precision (~94.0%) and recall (91.0%).
-Among the 22 variables, only 6 play a significant role on customer's satisfaction : 'Class','Inflight entertainment','Seat comfort','Online boarding','Inflight wifi service' and 'Type of Travel'.
+
