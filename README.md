@@ -3,13 +3,17 @@
 # Objective
 **What is Sentiment Analysis?**
 
-Sentiment analysis (also known as opinion mining) is one of the many applications of Natural Language Processing. It is a set of methods and techniques used for extracting subjective information from text or speech, such as opinions or attitudes. In simple terms, it involves classifying a piece of text as positive, negative or neutral.
+**Sentiment analysis** (also known as opinion mining) is one of the many applications of Natural Language Processing. It is a set of methods and techniques used for extracting subjective information from text or speech, such as opinions or attitudes. In simple terms, it involves classifying a piece of text as positive, negative or neutral.
+This tutorial is a series of two parts.
+
+- Tutorial 1 (this part) : Getting familiar with NLP concepts like BOW, TFIDF, Word Embeddings, data cleaning and preprocessing,...
+- Tutorial 2 : Apply advanced state-of-the-art model in NLP for sentiment analysis task. Our focus will be on BERT model.
+
 This project will be divide into 2 parts : 
 - First part will be devoted to analyse our tweet dataset along with some data cleaning and preprocessing steps. 
 We will apply then standards methods (e.g. Bag of words (BOW) and tf-idf) to convert our tweets into  
 
-The objective of this project is to guide an airline company to determine the important factors that influences customer's satisfaction.
-Customer satisfaction plays a major role in affecting the business of a company therefore analysing and improving the factors that are closely related to customer satisfaction is important for the growth and reputation of a company.
+
 ## Project Structure 
 
 ```bash
