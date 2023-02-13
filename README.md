@@ -15,7 +15,7 @@ This tutorial is a series of two parts.
 └── Data
     └── training.csv
     └── test.csv
-└── NLP_BOW_TFIDF_WORD2VEC.ipynb
+└── sentiment_analysis.ipynb
 └── readme.md
 ```
 ## Project Overview
