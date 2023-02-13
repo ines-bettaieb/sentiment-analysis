@@ -13,8 +13,8 @@ This tutorial is a series of two parts.
 
 ```bash
 └── Data
-    └── tf.csv
-    └── tf_test.csv
+    └── training.csv
+    └── test.csv
 └── NLP_BOW_TFIDF_WORD2VEC.ipynb
 └── readme.md
 ```
